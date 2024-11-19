@@ -65,7 +65,6 @@ section {
       transform: rotate(-30deg);
     }
 
-
     & .content {
       position: absolute;
       right: 100px;
@@ -193,7 +192,7 @@ section {
     --calculation: 1;
 
     & .item {
-      transform:translateX(calc(100vw * var(--calculation)));
+      transform: translateX(calc(100vw * var(--calculation)));
       transition: 0.5s;
       opacity: 0;
 
@@ -242,7 +241,10 @@ section {
       }
 
       & .content {
-        & .car-information, h2, & .description, & .information {
+        & .car-information,
+        h2,
+        & .description,
+        & .information {
           transform: translateX(0);
           opacity: 1;
         }
@@ -251,5 +253,53 @@ section {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  header {
+    display: flex;
+    gap: 5%;
+    left: 37%;
+  }
  
+  .logo {
+    width: 150px;
+  }
+
+  .menu ul  {
+    display: flex;
+    width: 100vh;
+    gap: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    }
+
+
+    .container {
+      .list {
+        .content {
+          justify-content: space-evenly
+          ;
+
+          h2 {
+            font-size: 2em;
+            margin-top: -220px;
+          }
+          .description {
+            display: none;
+          }
+
+          .information {
+            margin-bottom: 81px;
+          }
+        }
+
+        }
+      }
+
+    }
+
+    
+
+  
+
+
 
