@@ -18,4 +18,5 @@ Uma landing page desenvolvida para apresentar uma seleção de carros esportivos
 - **Animações** 🔄: Movimentos suaves para botões e transições.
 <br>
 <br>
+ Deploy: https://projeto-car-dev.netlify.app
 <img src="https://github.com/SidemarOliveira/Projeto-Car/blob/main/assetes/imge-mockup.png?raw=true">
