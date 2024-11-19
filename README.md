@@ -16,11 +16,7 @@ Uma landing page desenvolvida para apresentar uma seleção de carros esportivos
 - **Carrossel de Imagens** 📸: Permite navegar entre diferentes modelos de veículos.
 - **Design Responsivo** 📐: Adaptável para dispositivos móveis, tablets e desktops.
 - **Animações** 🔄: Movimentos suaves para botões e transições.
-
-## 📁 Estrutura do Projeto
-
-```plaintext
-📂 FP-Selection
-├── 📄 index.html        # Estrutura principal da página
-├── 📄 styles.css        # Estilos da landing page
-└── 📄 script.js         # Scripts de interatividade e animações
+<br>
+<br>
+ Deploy: https://projeto-car-dev.netlify.app
+<img src="https://github.com/SidemarOliveira/Projeto-Car/blob/main/assetes/imge-mockup.png?raw=true">
