@@ -254,52 +254,59 @@ section {
 }
 
 @media screen and (max-width: 1000px) {
+
+
+  .container {
+    overflow: hidden;
+  }
+
   header {
     display: flex;
     gap: 5%;
     left: 37%;
   }
- 
+
   .logo {
     width: 150px;
   }
 
-  .menu ul  {
+  .menu ul {
     display: flex;
     width: 100vh;
     gap: 15px;
     font-size: 12px;
+    margin-left: 25px;
     cursor: pointer;
-    }
+  }
 
+  .container {
+    .list {
+      .content {
+        justify-content: space-evenly;
 
-    .container {
-      .list {
-        .content {
-          justify-content: space-evenly
-          ;
-
-          h2 {
-            font-size: 2em;
-            margin-top: -220px;
-          }
-          .description {
-            display: none;
-          }
-
-          .information {
-            margin-bottom: 81px;
-          }
+        h2 {
+          font-size: 2em;
+          margin-right: 21px;
+          margin-bottom: -58px;
+        }
+        .car-information {
+          display: none;
         }
 
+        .description {
+          display: none;
+        }
+
+        .information {
+          margin-bottom: 5px;
         }
       }
-
     }
+  }
 
-    
-
-  
-
-
-
+  section {
+    & .car-img {
+      margin-left: 35px;
+    }
+  }
+}
